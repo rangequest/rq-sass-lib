@@ -1,0 +1,28 @@
+{
+  "name": "rq-sass-lib",
+  "version": "1.0.0",
+  "description": "range.quest SASS Library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rangequest/rq-sass-lib.git"
+  },
+  "keywords": [
+    "sass",
+    "sass-lib"
+  ],
+  "author": "Range Quest",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rangequest/rq-sass-lib/issues"
+  },
+  "homepage": "https://github.com/rangequest/rq-sass-lib#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.38.2"
+  }
+}
