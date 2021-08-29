@@ -1,18 +1,222 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/index.css">
-    <title>Range Quest SASS Lib</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/index.css">
+  <title>RQCSS - Lightweight CSS Library</title>
+  <meta name="description" content="The ultimate css lib to create a succesful blog or to make yours even better!"/>
 </head>
 <body>
-    <h1>This is an h1</h1>
-    <a href="#">this is an anchor tag</a>
-    <p class="error">this is an error</p>
-    <p class="notification">this is a notification</p>
-    <button>Click Me</button>
-    
+  
+  <!-- navbar -->
+  <nav class="navbar justify-between">
+    <div class="container">
+      <h1 class="site-title">RQCSS - Lightweight CSS Library</h1>
+    </div>
+  </nav>
+
+  <!-- intro -->
+  <div class="container mt-5">
+    <div class="row justify-center">
+      <div class="col-12-xs col-5-md mb-1 pd-1">
+        <h1>
+          <div class="font-xxl mb-1">RQCSS</div>
+        </h1>
+        <div class="font-xl text-secondary">by RANGE QUEST</div>
+        <p class="text-gray mt-2 mb-3">A Lightweight CSS Library</p>
+        <a href="#documentation" class="btn-outlined-secondary text-secondary text-hover-white mb-2">View Docs</a>
+      </div>
+      <div class="col-12-xs col-5-md pb-2">
+        <div style="max-width: 300px;">
+        <img src="images/RQCSS-Logo.png" alt="RQCSS Logo"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- about -->
+  <section id="about" class="bg-secondary-light-9 mt-1 pt-3 pb-3">
+    <div class="container">
+      <h2 class="mb-2">About RQCSS Library</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ipsam animi aliquid sequi fuga, nam nesciunt dolore libero dolorem exercitationem aliquam cupiditate atque illo, quae dicta doloribus et? Ab ipsam inventore quam asperiores, sequi unde tenetur accusamus, distinctio magni necessitatibus quis deserunt id alias. Iste eum ea labore rerum voluptatibus.</p>
+      <p class="mt-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta nam, corrupti dolorum inventore perspiciatis id illum repellat iste amet sapiente ducimus nihil molestias quasi, totam, ratione minima molestiae blanditiis iure consequatur praesentium debitis. Nulla maiores doloremque tempore nobis dolorum amet!</p>
+    </div>
+  </section>
+
+  <!-- work section -->
+  <section id="work" class="mt-2 pt-1">
+    <div class="container">
+      <h2 class="mb-2">Portfolio</h2>
+      <div class="row gap-1">
+        <div class="col-12-xs col-6-md col-3-lg">
+          <div class="card p-0">
+            <h3 class="card-title m-1">
+              Mario Club <span class="badge-secondary text-white ml-1">new</span>
+            </h3>
+            <img class="p-0" src="https://picsum.photos/id/1039/400/100/" alt="">
+            <p class="m-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, hic!</p>
+          </div>
+        </div>
+        <div class="col-12-xs col-6-md col-3-lg">
+          <div class="card p-0">
+            <h3 class="card-title m-1">rqcsses Food</h3>
+            <img src="https://picsum.photos/id/1045/400/100/" alt="">
+            <p class="m-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, hic!</p>
+          </div>
+        </div>
+        <div class="col-12-xs col-6-md col-3-lg">
+          <div class="card p-0">
+            <h3 class="card-title m-1">Just Add Marmite</h3>
+            <img src="https://picsum.photos/id/1051/400/100/" alt="">
+            <p class="m-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, hic!</p>
+          </div>
+        </div>
+        <div class="col-12-xs col-6-md col-3-lg">
+          <div class="card p-0">
+            <h3 class="card-title m-1">rqcsses Notes</h3>
+            <img src="https://picsum.photos/id/107/400/100/" alt="">
+            <p class="m-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, hic!</p>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-center mt-2">
+        <button class="btn-secondary text-white font-md">View All</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lib Docs -->
+  <section id="documentation" class="mt-1">
+    <div class="container">
+      <!-- colors -->
+      <h2 class="mb-2">Colors</h2><p style="line-height: 2rem">
+      <span class="text-primary">primary text</span> | 
+      <span class="text-secondary">secondary text</span> | 
+      <span class="text-error">error text</span> | 
+      <span class="text-info">info text</span> | 
+      <span class="text-blue">blue text</span> | 
+      <span class="text-red">red text</span> |
+      <span class="text-green">green text</span> | 
+      <span class="text-yellow">yellow text</span> | 
+      <span class="text-purple">purple text</span> | 
+      <span class="text-orange">orange text</span> | 
+      <span class="text-gray">gray text</span></p>
+  
+  
+      <p style="line-height: 2rem">
+      <span class="bg-primary text-white">bg primary</span> |
+      <span class="bg-secondary text-white">bg secondary</span> |
+      <span class="bg-error text-white">bg error</span> |
+      <span class="bg-info text-white">bg info</span> |
+      <span class="bg-blue text-white">bg blue</span> |
+      <span class="bg-red text-white">bg red</span> |
+      <span class="bg-green text-white">bg green</span> |
+      <span class="bg-yellow text-white">bg yellow</span> |
+      <span class="bg-purple text-white">bg purple</span> |
+      <span class="bg-orange text-white">bg orange</span> |
+      <span class="bg-gray text-white">bg gray</span></p>
+  
+      <p style="line-height: 2rem">
+      <span class="bg-primary-dark-8 text-white">primary dark 8</span> |
+      <span class="bg-primary-dark-6 text-white">primary dark 6</span> |
+      <span class="bg-primary-dark-4 text-white">primary dark 4</span> |
+      <span class="bg-primary-dark-2 text-white">primary dark 2</span> |
+      <span class="bg-primary text-white">primary</span> |
+      <span class="bg-primary-light-2 text-white">primary light 2</span> |
+      <span class="bg-primary-light-4 text-white">primary light 4</span> |
+      <span class="bg-primary-light-6 text-white">primary light 6</span> |
+      <span class="bg-primary-light-8 text-white">primary light 8</span></p>
+  
+      <br><br>
+      <a href="#" class="text-primary text-hover-orange-light-1">hover me</a>
+  
+      <hr class="mt-1 mb-1">
+  
+      <!-- font sizes -->
+      <h2 class="mb-2">Font Sizes</h2>
+      <div class="mb-2 font-sm">this is small font</div>
+      <div class="mb-2 font-md">this is medium font</div>
+      <div class="mb-2 font-lg">this is large font</div>
+      <div class="mb-2 font-xl">this is extra large font</div>
+      <div class="mb-2 font-xxl">this is extra, extra large font</div>
+  
+      <hr class="mt-1 mb-1">
+  
+      <!-- buttons -->
+      <h2 class="mb-2">Buttons</h2>
+      <a href="#" class="mb-1 mr-1 btn">default btn</a>
+      <a href="#" class="mb-1 mr-1 btn-primary text-white">click me</a>
+      <a href="#" class="mb-1 mr-1 btn-secondary text-white">click me</a>
+      <a href="#" class="mb-1 mr-1 btn-error text-white">click me</a>
+      <a href="#" class="mb-1 mr-1 btn-info">click me</a>
+      <a href="#" class="mb-1 mr-1 btn-outlined-purple text-purple text-hover-white">click me</a>
+      <a href="#" class="mb-1 mr-1 btn-outlined-orange text-orange text-hover-white">click me</a>
+      <a href="#" class="mb-1 mr-1 btn-complement-purple">click me</a>
+      <a href="#" class="mb-1 mr-1 btn-complement-primary">click me</a>
+  
+      <hr class="mt-1 mb-1">
+  
+      <!-- cards -->
+      <h2 class="mb-2">Cards</h2>
+      <div class="card">
+        <h1 class="card-title">This is a title</h1>
+        <p class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. In sunt, quo totam aliquam praesentium ducimus tempore sapiente quia nulla optio? Lorem ipsum, dolor sit amet consectetur <a href="#lib-footer">adipisicing elit</a>. Libero laboriosam laborum exercitationem autem commodi voluptas odio aliquid ut velit doloremque minima, quaerat dolores, corporis consequuntur totam nam id veniam maxime.</p>
+      </div>
+  
+      <hr class="mt-1 mb-1">
+  
+      <!-- grid system -->
+      <h2 class="mb-2">Grid System</h2>
+      <div class="row gap-2 justify-center">
+        <div class="col-12-xs col-5-sm col-3-xl">
+          <div class="card">
+            <h3 class="card-title">Hello, rqcssess</h3>
+            <p class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="col-12-xs col-5-sm col-3-xl">
+          <div class="card">
+            <h3 class="card-title">Hello, rqcssess</h3>
+            <p class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="col-12-xs col-5-sm col-3-xl">
+          <div class="card">
+            <h3 class="card-title">Hello, rqcssess</h3>
+            <p class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="col-12-xs col-5-sm col-3-xl">
+          <div class="card">
+            <h3 class="card-title">Hello, rqcssess</h3>
+            <p class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+  
+      <hr class="mt-1 mb-1">
+      
+      <!-- utilities -->
+      <h2>Using Utilities</h2>
+      <div class="mt-2 bg-blue-light-8 p-2 br-xs">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, perspiciatis!</p>
+      </div>
+      <div class="mt-2 text-white bg-red-light-3 p-2 br-lg">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, perspiciatis!</p>
+      </div>
+      <div class="display-i-b bg-purple text-white o-10 mt-3 mr-3 p-2">opacity 10</div>
+      <div class="display-i-b bg-purple text-white o-30 mt-3 mr-3 p-2">opacity 30</div>
+      <div class="display-i-b bg-purple text-white o-50 mt-3 mr-3 p-2">opacity 50</div>
+      <div class="display-i-b bg-purple text-white o-70 mt-3 mr-3 p-2">opacity 70</div>
+      <div class="display-i-b bg-purple text-white o-90 mt-3 mr-3 p-2">opacity 90</div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="bg-gray-light-7 p-2 mt-2" id="lib-footer">
+    <div class="container text-center">
+      © 2021 - <a href="https://range.quest">RQCSS Lib</a>
+    </div>
+  </footer>
 </body>
 </html>
