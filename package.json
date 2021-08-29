@@ -1,6 +1,6 @@
 {
   "name": "@rangequest/rqcss",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Lightweight CSS Library by RANGE QUEST",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/rangequest/rq-sass-lib/issues"
   },
-  "homepage": "https://github.com/rangequest/rq-sass-lib#readme",
+  "homepage": "https://rangequest.github.io/rq-sass-lib/",
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-sass": "^5.0.0",
