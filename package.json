@@ -1,7 +1,7 @@
 {
-  "name": "rq-sass-lib",
+  "name": "@rangequest/rqcss",
   "version": "1.0.0",
-  "description": "range.quest SASS Library",
+  "description": "A Lightweight CSS Library by RANGE QUEST",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
